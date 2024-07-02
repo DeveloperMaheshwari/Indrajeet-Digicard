@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.txt{
+    /* background-color: linear-gradient(to top, rgb(255, 0, 136), rgb(25, 0, 255)); */
+    /* color: linear-gradient(rgba(160, 228, 59, 0.879), rgba(33, 33, 86, 0.912)); */
+}
+
+.container{
+    border-radius: 2rem;
+}
+
+.logo{
+    border-radius: 2rem;
+}
+
+.self{
+    margin-top: -3rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.card{
+    background-color:rgba(33, 33, 86, 0.912);
+}
+
+.info{
+    color:  rgba(160, 228, 59, 0.879);
+}
+
+.card:hover{
+    transition: 0.9s;
+    transform: rotateX(180deg);
+}
